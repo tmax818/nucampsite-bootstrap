@@ -4,6 +4,8 @@
   "description": "bootstrap sample project",
   "main": "index.js",
   "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/tmax818/nucampsite-bootstrap/issues"
   },
-  "homepage": "https://github.com/tmax818/nucampsite-bootstrap"
+  "homepage": "https://github.com/tmax818/nucampsite-bootstrap",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "lite-server": "^2.5.4",
+    "popper.js": "^1.16.1"
+  }
 }
